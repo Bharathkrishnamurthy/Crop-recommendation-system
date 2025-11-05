@@ -1,8 +1,4 @@
 # Crop-recommendation-system
-The project developed a Crop Recommendation System using machine learning to suggest the most suitable crop based on soil and weather data.
-
-#  Crop Recommendation System
-
 ##  Overview
 This project is a **machine learning-based Crop Recommendation System** that helps farmers and agricultural experts identify the most suitable crop to grow based on environmental and soil conditions such as nitrogen, phosphorus, potassium, temperature, humidity, pH, and rainfall.
 
@@ -58,13 +54,4 @@ This project is a **machine learning-based Crop Recommendation System** that hel
    ```bash
    !pip install streamlit pyngrok joblib
 
-   📂 Crop_Recommendation_System/
-│
-├── crop_recommendation.ipynb     # Main notebook
-├── app.py                        # Streamlit web app
-├── crop_model.pkl                # Trained ML model
-├── scaler.pkl                    # Scaler object
-├── label_encoder.pkl             # Label encoder
-├── requirements.txt              # Dependencies
-└── README.md                     # Project summary
 
