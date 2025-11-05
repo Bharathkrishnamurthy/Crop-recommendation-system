@@ -1,21 +1,17 @@
 # Crop-recommendation-system
 The project developed a Crop Recommendation System using machine learning to suggest the most suitable crop based on soil and weather data.
 
-# 🌾 Crop Recommendation System
+#  Crop Recommendation System
 
-## 📘 Overview
+##  Overview
 This project is a **machine learning-based Crop Recommendation System** that helps farmers and agricultural experts identify the most suitable crop to grow based on environmental and soil conditions such as nitrogen, phosphorus, potassium, temperature, humidity, pH, and rainfall.
 
----
-
-## 🎯 Objectives
+## Objectives
 1. Predict the most suitable crop for given soil and climate conditions.  
 2. Assist farmers in improving productivity using data-driven recommendations.  
 3. Provide an interactive Streamlit web app for real-time prediction.  
 
----
-
-## 🧠 Key Steps
+##  Key Steps
 1. **Data Loading & Exploration (EDA):**
    - Analyzed the distribution of crops and feature correlations.
    - Checked for missing values and outliers.
@@ -38,22 +34,21 @@ This project is a **machine learning-based Crop Recommendation System** that hel
 
 ---
 
-## 📊 Results
+##  Results
 - Achieved high accuracy on the test dataset.  
 - The model effectively recommends crops like rice, maize, cotton, etc.  
 - ROC curves and confusion matrices confirm robust classification performance.
 
----
 
-## 🧩 Technologies Used
+## Technologies Used
 - **Python**  
 - **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**  
 - **Scikit-learn**, **XGBoost**  
 - **Streamlit**, **ngrok** for deployment  
 
----
 
-## 🚀 How to Run (in Google Colab)
+
+## How to Run (in Google Colab)
 1. **Upload  trained model files**:  
    - `crop_model.pkl`  
    - `scaler.pkl`  
@@ -62,3 +57,14 @@ This project is a **machine learning-based Crop Recommendation System** that hel
 2. **Install dependencies**
    ```bash
    !pip install streamlit pyngrok joblib
+
+   📂 Crop_Recommendation_System/
+│
+├── crop_recommendation.ipynb     # Main notebook
+├── app.py                        # Streamlit web app
+├── crop_model.pkl                # Trained ML model
+├── scaler.pkl                    # Scaler object
+├── label_encoder.pkl             # Label encoder
+├── requirements.txt              # Dependencies
+└── README.md                     # Project summary
+
